@@ -16,6 +16,7 @@
 		79B9CE3A1E225E8F00C22A2B /* SimpleAgendaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B9CE391E225E8F00C22A2B /* SimpleAgendaTests.swift */; };
 		79B9CE451E225E8F00C22A2B /* SimpleAgendaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B9CE441E225E8F00C22A2B /* SimpleAgendaUITests.swift */; };
 		79B9CE571E22779600C22A2B /* AddScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B9CE561E22779600C22A2B /* AddScheduleVC.swift */; };
+		79C3FA2D1E2281B7003B2636 /* DateHourTbVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C3FA2C1E2281B7003B2636 /* DateHourTbVCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		79B9CE441E225E8F00C22A2B /* SimpleAgendaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAgendaUITests.swift; sourceTree = "<group>"; };
 		79B9CE461E225E8F00C22A2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79B9CE561E22779600C22A2B /* AddScheduleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddScheduleVC.swift; sourceTree = "<group>"; };
+		79C3FA2C1E2281B7003B2636 /* DateHourTbVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateHourTbVCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		79B9CE201E225E8F00C22A2B /* SimpleAgenda */ = {
 			isa = PBXGroup;
 			children = (
+				79C3FA2B1E228177003B2636 /* Cells */,
 				79B9CE541E225EB000C22A2B /* Controller */,
 				79B9CE521E225EA600C22A2B /* Model */,
 				79B9CE551E225ECD00C22A2B /* Others */,
@@ -161,6 +164,14 @@
 				79B9CE211E225E8F00C22A2B /* AppDelegate.swift */,
 			);
 			name = Others;
+			sourceTree = "<group>";
+		};
+		79C3FA2B1E228177003B2636 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				79C3FA2C1E2281B7003B2636 /* DateHourTbVCell.swift */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +315,7 @@
 				79B9CE571E22779600C22A2B /* AddScheduleVC.swift in Sources */,
 				79B9CE241E225E8F00C22A2B /* ViewController.swift in Sources */,
 				79B9CE221E225E8F00C22A2B /* AppDelegate.swift in Sources */,
+				79C3FA2D1E2281B7003B2636 /* DateHourTbVCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,6 +566,7 @@
 				79B9CE4B1E225E8F00C22A2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79B9CE4C1E225E8F00C22A2B /* Build configuration list for PBXNativeTarget "SimpleAgendaTests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +575,7 @@
 				79B9CE4E1E225E8F00C22A2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79B9CE4F1E225E8F00C22A2B /* Build configuration list for PBXNativeTarget "SimpleAgendaUITests" */ = {
 			isa = XCConfigurationList;
@@ -570,6 +584,7 @@
 				79B9CE511E225E8F00C22A2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
